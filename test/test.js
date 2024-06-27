@@ -18,4 +18,21 @@ const trainingLabels = [[1], [0]];
     const predictions = framework.predictWithEthicalModel(testData);
     console.log("Predictions:", predictions);
 
-    const biases = framework.checkForBias(testData
+    const biases = framework.checkForBias(testData);
+    console.log("Biases detected:", biases);
+
+    const mitigatedData = framework.mitigateDetectedBias(testData);
+    console.log("Mitigated Data:", mitigatedData);
+
+    const compliance = framework.ensureCompliance(testData);
+    console.log("Compliance:", compliance);
+
+    const anomalies = await framework.detectEthicalAnomalies(testData);
+    console.log("Anomalies:", anomalies);
+
+    const patterns = await framework.recognizeEthicalPatterns(testData);
+    console.log("Patterns:", patterns);
+
+    const features = await framework.extractEthicalFeatures(testData);
+    console.log("Features:", features);
+})();
