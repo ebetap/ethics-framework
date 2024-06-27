@@ -152,4 +152,4 @@ Please report any bugs or issues on the [GitHub issues page](https://github.com/
 
 ## Author
 
-Your Name - [Beta Priyoko](mailto:beta.priyoko@students.amikom.ac.id)
+Beta Priyoko - [Email](mailto:beta.priyoko@students.amikom.ac.id)
