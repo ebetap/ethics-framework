@@ -1,1 +1,26 @@
-# ethics-framework
+{
+  "name": "ethics-framework",
+  "version": "1.0.0",
+  "description": "A framework for ethical decision-making using machine learning",
+  "main": "src/EthicsFramework.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebetap/ethics-framework.git"
+  },
+  "keywords": ["ethics", "machine-learning", "ai", "tensorflow"],
+  "author": "Beta Priyoko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebetap/ethics-framework/issues"
+  },
+  "homepage": "https://github.com/ebetap/ethics-framework#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
